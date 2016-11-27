@@ -4,6 +4,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
+//MyStack is a pre-defined Interface
 public class LockStack implements MyStack {
 	private Node top;
 	ReentrantLock lock;
